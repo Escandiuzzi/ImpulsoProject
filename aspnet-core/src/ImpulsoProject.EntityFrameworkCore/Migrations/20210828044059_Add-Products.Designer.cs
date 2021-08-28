@@ -4,14 +4,16 @@ using ImpulsoProject.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ImpulsoProject.Migrations
 {
     [DbContext(typeof(ImpulsoProjectDbContext))]
-    partial class ImpulsoProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210828044059_Add-Products")]
+    partial class AddProducts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
