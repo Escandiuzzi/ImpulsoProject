@@ -4,6 +4,9 @@ using Abp.Domain.Repositories;
 using ImpulsoProject.Authorization;
 using ImpulsoProject.Authorization.Products;
 using ImpulsoProject.Products.Dto;
+using ImpulsoProject.Users.Dto;
+using System;
+using System.Threading.Tasks;
 
 namespace ImpulsoProject.Products
 {
@@ -13,5 +16,6 @@ namespace ImpulsoProject.Products
         public ProductAppService(IRepository<Product, int> repository) : base(repository)
         {
         }
+
     }
 }
