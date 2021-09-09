@@ -29,6 +29,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ImpulsoProject.MongoDB\ImpulsoProject.MongoDB.csproj" />
     <ProjectReference Include="..\ImpulsoProject.Web.Core\ImpulsoProject.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>

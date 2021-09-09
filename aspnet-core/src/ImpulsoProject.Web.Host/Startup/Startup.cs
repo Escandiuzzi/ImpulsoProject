@@ -10,7 +10,6 @@ using Castle.Facilities.Logging;
 using Abp.AspNetCore;
 using Abp.AspNetCore.Mvc.Antiforgery;
 using Abp.Castle.Logging.Log4Net;
-using Abp.Extensions;
 using ImpulsoProject.Configuration;
 using ImpulsoProject.Identity;
 using Abp.AspNetCore.SignalR.Hubs;

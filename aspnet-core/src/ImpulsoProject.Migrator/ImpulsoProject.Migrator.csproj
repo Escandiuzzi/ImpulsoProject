@@ -18,6 +18,7 @@
     <PackageReference Include="Abp.Castle.Log4Net" Version="6.4.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ImpulsoProject.MongoDB\ImpulsoProject.MongoDB.csproj" />
     <ProjectReference Include="..\ImpulsoProject.Core\ImpulsoProject.Core.csproj" />
     <ProjectReference Include="..\ImpulsoProject.EntityFrameworkCore\ImpulsoProject.EntityFrameworkCore.csproj" />
   </ItemGroup>
